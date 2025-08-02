@@ -1,6 +1,6 @@
 # README
 
-## 🎯 Mục tiêu
+## Mục tiêu
 Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
 - Làm quen với thao tác **chọn vùng đối tượng** trong ảnh.
 - Áp dụng các kỹ thuật xử lý ảnh như **tịnh tiến**, **xoay**, **ngưỡng hóa**, **mapping**, và **morphological closing**.
@@ -8,7 +8,7 @@ Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
 
 ---
 
-## 🗂 Cấu trúc
+## Cấu trúc
 ```
 ├── exercise/
 ├── THLAB4.ipynb
@@ -17,7 +17,7 @@ Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
 
 ---
 
-## 🧠 Các bài toán cụ thể
+## Các bài toán cụ thể
 
 ### 🖼 Bài 1: LangBiang - Tịnh tiến + Otsu Threshold
 - **Tác vụ**: Cắt vùng LangBiang từ ảnh `da_lat.jpg`, tịnh tiến sang phải 100px.
@@ -28,7 +28,7 @@ Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
   ```
 - **Lưu kết quả**: `lang_biang.jpg`
 
-### 🌊 Bài 2: Hồ Xuân Hương - Xoay + Adaptive Threshold
+### Bài 2: Hồ Xuân Hương - Xoay + Adaptive Threshold
 - **Tác vụ**: Cắt vùng hồ, xoay 45 độ quanh tâm vùng chọn
 - **Ngưỡng hóa thích nghi** (Adaptive Gaussian) với tham số C = 60
 - **Công thức**:
@@ -37,7 +37,7 @@ Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
   ```
 - **Lưu kết quả**: `ho_xuan_huong.jpg`
 
-### 🏛 Bài 3: Quảng Trường Lâm Viên - Coordinate Mapping + Morphological Closing
+### Bài 3: Quảng Trường Lâm Viên - Coordinate Mapping + Morphological Closing
 - **Tác vụ**: Phóng to vùng chọn bằng phép nội suy
 - Áp dụng **Binary Closing** để làm mịn chi tiết:
   ```
@@ -48,7 +48,7 @@ Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
 
 ---
 
-## ✅ Yêu cầu thư viện
+## Thư viện sử dụng
 - `cv2`
 - `numpy`
 - `matplotlib`
