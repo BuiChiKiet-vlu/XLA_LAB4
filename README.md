@@ -54,28 +54,17 @@ Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
 - `matplotlib`
 - `PIL`
 - `skimage`
-
-Cài đặt nhanh:
-```bash
-pip install opencv-python numpy matplotlib pillow scikit-image
-```
-
+- `scipy`
 ---
 
-## 🛠 Cách chạy
-```bash
-python dalat_object_processing.py
-```
-> Đảm bảo có ảnh `da_lat.jpg` trong thư mục `exercise/`
+## Cách chạy
 
 ---
+## Sinh viên thực hiện
+Bùi Chí Kiệt - 2374802010255
 
-## 📌 Ghi chú
-- Nếu chương trình không đọc được ảnh, kiểm tra đường dẫn và tên file ảnh.
-- Các toạ độ cắt vùng chỉ là ước lượng. Ngài có thể mở ảnh bằng `matplotlib` để lấy toạ độ chính xác hơn nếu muốn.
+## Giảng viên hướng dẫn
+TS. ĐỖ HỮU QUÂN
 
----
-
-## 🧑‍💻 Người thực hiện
-- [Tên sinh viên/nhóm điền vào đây nếu cần]
-- [Thời gian: 08/2025]
+## Tài liệu tham khảo
+Tài liệu thực hành lab4
