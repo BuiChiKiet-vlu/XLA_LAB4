@@ -19,7 +19,7 @@ Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
 
 ## Các bài toán cụ thể
 
-### 🖼 Bài 1: LangBiang - Tịnh tiến + Otsu Threshold
+### Bài 1: Tịnh tiến + Otsu Threshold
 - **Tác vụ**: Cắt vùng LangBiang từ ảnh `da_lat.jpg`, tịnh tiến sang phải 100px.
 - **Ngưỡng hóa bằng Otsu** với hệ số điều chỉnh 0.3 (giảm độ sáng)
 - **Công thức** (Otsu threshold tự động): chọn ngưỡng `T` sao cho:
@@ -28,7 +28,7 @@ Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
   ```
 - **Lưu kết quả**: `lang_biang.jpg`
 
-### Bài 2: Hồ Xuân Hương - Xoay + Adaptive Threshold
+### Bài 2: Xoay + Adaptive Threshold
 - **Tác vụ**: Cắt vùng hồ, xoay 45 độ quanh tâm vùng chọn
 - **Ngưỡng hóa thích nghi** (Adaptive Gaussian) với tham số C = 60
 - **Công thức**:
@@ -37,7 +37,7 @@ Chương trình này gồm 3 bài tập nhỏ nhằm mục tiêu:
   ```
 - **Lưu kết quả**: `ho_xuan_huong.jpg`
 
-### Bài 3: Quảng Trường Lâm Viên - Coordinate Mapping + Morphological Closing
+### Bài 3: Coordinate Mapping + Morphological Closing
 - **Tác vụ**: Phóng to vùng chọn bằng phép nội suy
 - Áp dụng **Binary Closing** để làm mịn chi tiết:
   ```
